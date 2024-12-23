@@ -3,13 +3,18 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "concurrently \"ng serve mfe1\" \"ng serve shell\"",
-    "build": "concurrently \"ng build mfe1\" \"ng build shell\"",
+    "start:all": "concurrently \"npm run start:mfe1\" \"npm run start:shell\"",
+    "start:mfe1": "ng serve mfe1",
+    "start:shell": "ng serve shell",
+    "build": "concurrently \"npm run build:mfe1\" \"npm run build:shell\"",
+    "build:mfe1": "ng build mfe1",
+    "build:shell": "ng build shell",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:mfe1": "node dist/mfe1/server/server.mjs",
     "serve:ssr:shell": "node dist/shell/server/server.mjs",
-    "serve:ssr": "concurrently \"npm run serve:ssr:mfe1\" \"npm run serve:ssr:shell\""
+    "serve:ssr": "concurrently \"npm run serve:ssr:mfe1\" \"npm run serve:ssr:shell\"",
+    "start": "npm run build:mfe1 && npm run serve:ssr:mfe1"
   },
   "private": true,
   "dependencies": {
