@@ -1,0 +1,29 @@
+{
+  "imports": {
+    "@angular/animations": "./dist/shell/browser/_angular_animations.AhYNitXOud.js",
+    "@angular/animations/browser": "./dist/shell/browser/_angular_animations_browser.mFKJNt47TA.js",
+    "@angular/common": "./dist/shell/browser/_angular_common.UxKZeZXRM-.js",
+    "@angular/common/http": "./dist/shell/browser/_angular_common_http.iluZrREr9B.js",
+    "@angular/compiler": "./dist/shell/browser/_angular_compiler.dCoyaSXfvF.js",
+    "@angular/core": "./dist/shell/browser/_angular_core.VYCjapCWKQ.js",
+    "@angular/core/event-dispatch-contract.min.js": "./dist/shell/browser/_angular_core_event_dispatch_contract_min_js.Ar8TvjO_nT.js",
+    "@angular/core/primitives/event-dispatch": "./dist/shell/browser/_angular_core_primitives_event_dispatch.vukJqzBNpZ.js",
+    "@angular/core/primitives/signals": "./dist/shell/browser/_angular_core_primitives_signals.-Kq_AMIbpd.js",
+    "@angular/core/rxjs-interop": "./dist/shell/browser/_angular_core_rxjs_interop.4aD-3-w7HI.js",
+    "@angular/forms": "./dist/shell/browser/_angular_forms.AbPlOxJ1B0.js",
+    "@angular/platform-browser": "./dist/shell/browser/_angular_platform_browser.jHPAJhQ4Vr.js",
+    "@angular/platform-browser/animations": "./dist/shell/browser/_angular_platform_browser_animations.BIyEbUuPxd.js",
+    "@angular/platform-browser/animations/async": "./dist/shell/browser/_angular_platform_browser_animations_async.QPwlHCuG8k.js",
+    "@angular/platform-browser-dynamic": "./dist/shell/browser/_angular_platform_browser_dynamic.JSYrh87ubp.js",
+    "@angular/router": "./dist/shell/browser/_angular_router.gH0USO627L.js",
+    "cors": "./dist/shell/browser/cors.XXODrnyPMz.js",
+    "rxjs": "./dist/shell/browser/rxjs.1rPMSIYnrx.js",
+    "rxjs/operators": "./dist/shell/browser/rxjs_operators.TBnbGw5p_4.js",
+    "tslib": "./dist/shell/browser/tslib.TCTD6GycD_.js",
+    "@angular/platform-server": "./dist/shell/browser/_angular_platform_server.RbYBoJiG83.js",
+    "@angular/platform-server/init": "./dist/shell/browser/_angular_platform_server_init.R1IS_VR0_3.js",
+    "@angular/ssr": "./dist/shell/browser/_angular_ssr.8vlMC6SzIg.js",
+    "@angular/ssr/node": "./dist/shell/browser/_angular_ssr_node.Ukir0pZZaj.js"
+  },
+  "scopes": {}
+}

@@ -5,10 +5,10 @@ console.log('Starting SSR for Shell');
 (async () => {
 
   await initNodeFederation({
-    remotesOrManifestUrl: '../browser/federation.manifest.json',
-    relBundlePath: '../browser/',
+    remotesOrManifestUrl: './dist/shell/browser/federation.manifest.json',
+    relBundlePath: './dist/shell/browser/',
   });
-  
+
   await import('./bootstrap-server');
 
 })();
