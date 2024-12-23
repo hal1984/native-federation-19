@@ -111,7 +111,9 @@
 			"architect": {
 				"build": {
 					"builder": "@angular-architects/native-federation:build",
-					"options": {},
+					"options": {
+						"ssr": true
+					},
 					"configurations": {
 						"production": {
 							"target": "shell:esbuild:production"
@@ -177,7 +179,12 @@
 						"styles": [
 							"projects/shell/src/styles.scss"
 						],
-						"scripts": []
+						"scripts": [],
+						"server": "projects/shell/src/main.server.ts",
+						"prerender": false,
+						"ssr": {
+							"entry": "projects/shell/src/server.ts"
+						}
 					},
 					"configurations": {
 						"production": {
@@ -233,7 +240,9 @@
 			"architect": {
 				"build": {
 					"builder": "@angular-architects/native-federation:build",
-					"options": {},
+					"options": {
+						"ssr": true
+					},
 					"configurations": {
 						"production": {
 							"target": "mfe1:esbuild:production"
@@ -299,7 +308,12 @@
 						"styles": [
 							"projects/mfe1/src/styles.scss"
 						],
-						"scripts": []
+						"scripts": [],
+						"server": "projects/mfe1/src/main.server.ts",
+						"prerender": false,
+						"ssr": {
+							"entry": "projects/mfe1/src/server.ts"
+						}
 					},
 					"configurations": {
 						"production": {
