@@ -1,0 +1,4 @@
+{
+	"nativeFederation19": "http://localhost:4200/remoteEntry.json",
+	"mfe1": "http://localhost:4201/remoteEntry.json"
+}
