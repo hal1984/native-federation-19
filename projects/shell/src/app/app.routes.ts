@@ -9,6 +9,6 @@ export const routes: Routes = [
       remoteName: 'mfe1',
       exposedModule: './Component',
       fallback: DummyComponent
-    })
+    }).then(m => m.AppComponent)
   }
 ];
