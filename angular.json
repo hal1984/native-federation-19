@@ -181,7 +181,7 @@
 						],
 						"scripts": [],
 						"server": "projects/shell/src/main.server.ts",
-						"prerender": false,
+						"prerender": true,
 						"ssr": {
 							"entry": "projects/shell/src/server.ts"
 						}
@@ -310,7 +310,7 @@
 						],
 						"scripts": [],
 						"server": "projects/mfe1/src/main.server.ts",
-						"prerender": false,
+						"prerender": true,
 						"ssr": {
 							"entry": "projects/mfe1/src/server.ts"
 						}
