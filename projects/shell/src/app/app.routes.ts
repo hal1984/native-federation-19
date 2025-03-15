@@ -4,6 +4,11 @@ import { Routes } from '@angular/router';
 export const routes: Routes = [
   {
     path: '',
-    loadComponent: () => loadRemoteModule('mfe1', './routes').then(m => m.routes)
-  }
+    loadChildren: () =>
+      loadRemoteModule({
+        remoteName: 'mfe1',
+        exposedModule: './routes',
+        fallback: { routes: [] },
+      }).then((m) => m.routes),
+  },
 ];
