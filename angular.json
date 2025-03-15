@@ -310,7 +310,7 @@
 						],
 						"scripts": [],
 						"server": "projects/mfe1/src/main.server.ts",
-						"prerender": true,
+						"outputMode": "server",
 						"ssr": {
 							"entry": "projects/mfe1/src/server.ts"
 						}
